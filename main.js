@@ -12,7 +12,7 @@ document.getElementById( "btn-multiplicacao" ).addEventListener( "click" , multi
 
 function showcolor()
 {
-    document.body.style.backgroundColor ="red";
+    document.body.style.backgroundColor ="pink";
 }
 function exibenome()
 {
