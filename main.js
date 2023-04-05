@@ -30,18 +30,18 @@ function subtracao()
 {
     let num3 = document.getElementById( "num3" ).value;
     let num4 = document.getElementById( "num4" ).value;
-    document.getElementById( "resultado2" ).innerText = parseFloat(num3) + parseFloat(num4); 
+    document.getElementById( "resultado2" ).innerText = parseFloat(num3) - parseFloat(num4); 
 }
 function divisao()
 {
     let num5 = document.getElementById( "num5" ).value;
     let num6 = document.getElementById( "num6" ).value;
-    document.getElementById( "resultado3" ).innerText = parseFloat(num5) + parseFloat(num6); 
+    document.getElementById( "resultado3" ).innerText = parseFloat(num5) / parseFloat(num6); 
 }
 function multiplicacao()
 {
     let num7 = document.getElementById( "num7" ).value;
     let num8 = document.getElementById( "num8" ).value;
-    document.getElementById( "resultado4" ).innerText = parseFloat(num7) + parseFloat(num8); 
+    document.getElementById( "resultado4" ).innerText = parseFloat(num7) * parseFloat(num8); 
 }
 
